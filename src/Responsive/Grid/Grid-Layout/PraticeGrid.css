@@ -1,0 +1,84 @@
+/* .grid-container {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 10px;
+  grid-template-columns: 30% 30% 30%;
+  background-color: #2196f3;
+  padding: 10px 50px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+div.grid-item:nth-of-type(1) {
+  background-color: yellow;
+  max-width: max(10px, 30px);
+  margin-left: 8vw;
+}
+div.grid-item:nth-of-type(5) {
+  background-color: yellow;
+  max-width: max(10px, 30px);
+
+}
+
+/* 7789423222
+/* Ankit 
+Telecom regultory authority of india
+022 22160080 
+ */
+
+/* .continer {
+  display: grid;
+  background-color: aqua;
+}
+.continer p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.first-child {
+  grid-template-columns: auto auto auto;
+} */
+/* .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; } */
+.parent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-col/or: aquamarine; */
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.parent .child {
+  border: 1px solid black;
+  padding: 30px 300px;
+  font-size: 24px;
+}
+div.child:nth-of-type(1) {
+  background-color: brown;
+}
+div.child:nth-of-type(6) {
+  background-color: yellowgreen;
+}

@@ -4,7 +4,7 @@ import Child from "./Child";
 const Parent = () => {
   const [parentData, setparentData] = useState([]);
 
-  const parentUpdation = useCallback(() => {
+  const parentUpdation = useCallback(() => { 
     setparentData(parentData.push(1 * 2));
   }, []);
 
